@@ -1,6 +1,6 @@
 /* Navbar Area Start */
 .navbar {
-  position: absolute;
+  position: absolute !important;
   width: 100%;
   z-index: 1;
   --bs-navbar-padding-y: 0;
