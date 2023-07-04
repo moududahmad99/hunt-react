@@ -1,9 +1,10 @@
-import React from 'react'
-import Navbar from '../../Components/Navbar/Index'
-import Banner from '../../Components/Banner/Index'
-import About from '../../Components/About/Index'
-import Portfolio from '../../Components/Portfolio/Index'
-import Service from '../../Components/Service'
+import React from 'react';
+import Navbar from '../../Components/Navbar/Index';
+import Banner from '../../Components/Banner/Index';
+import About from '../../Components/About/Index';
+import Portfolio from '../../Components/Portfolio/Index';
+import Service from '../../Components/Service';
+import Review from '../../Components/Review/Index';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <About />
             <Portfolio />
             <Service />
+            <Review />
         </React.Fragment>
     )
 }
