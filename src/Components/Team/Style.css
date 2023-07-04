@@ -1,0 +1,142 @@
+/* Team Area Start */
+#team {
+  margin: 60px 0;
+}
+
+.team-card {
+  border: 1px solid #dddddd;
+  margin: 60px 0;
+  cursor: pointer;
+}
+
+.team-overlay {
+  clip-path: polygon(0 0, 100% 0, 100% 86%, 0 100%);
+  background-color: #f1f1f1;
+  position: relative;
+}
+
+.team-overlay img {
+    height: 379px;
+}
+
+.team-overlay::after {
+  position: absolute;
+  content: "";
+  height: 0;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: #f8da78af;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  clip-path: polygon(0 0, 100% 0, 100% 86%, 0 100%);
+  opacity: 0;
+}
+
+.team-card:hover .team-overlay::after {
+  height: 100%;
+  opacity: 1;
+}
+
+.team-card h3 {
+  font-size: 20px;
+  font-family: var(--secondary-font);
+  line-height: 34px;
+  color: var(--primary-color);
+  margin-top: 10px;
+}
+
+.team-card p {
+  font-size: 16px;
+  font-family: var(--secondary-font);
+  line-height: 24px;
+  color: var(--secondary-color);
+}
+
+.team-overlayInner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.team-overlayInner a {
+  color: var(--primary-color);
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  opacity: 0;
+}
+
+.team-card:hover .team-overlayInner a {
+  opacity: 1;
+  transition: 1.4s;
+  -webkit-transition: 1.4s;
+  -moz-transition: 1.4s;
+  -ms-transition: 1.4s;
+  -o-transition: 1.4s;
+}
+
+.team-overlayIcon {
+  padding: 20px;
+  margin: -30px 0;
+  transform: scale(0);
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.team-card:hover .team-overlayIcon {
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  margin: 0;
+}
+
+.team-overlayIcon a {
+  height: 38px;
+  width: 38px;
+  line-height: 34px;
+  margin: 0 10px;
+  color: var(--primary-color);
+  background-color: transparent;
+  border: 1px solid #353535;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.team-overlayIcon a:hover {
+  background-color: #fec600;
+  border: 1px solid transparent;
+}
+/* Team Area End */

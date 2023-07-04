@@ -7,6 +7,7 @@ import Service from '../../Components/Service';
 import Review from '../../Components/Review/Index';
 import Pricing from '../../Components/Pricing/Index';
 import Countdown from '../../Components/Countdown/Index';
+import Team from '../../Components/Team/Index';
 
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
             <Review />
             <Pricing />
             <Countdown />
+            <Team />
         </React.Fragment>
     )
 }
