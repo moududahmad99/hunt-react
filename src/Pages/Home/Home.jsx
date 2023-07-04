@@ -5,6 +5,7 @@ import About from '../../Components/About/Index';
 import Portfolio from '../../Components/Portfolio/Index';
 import Service from '../../Components/Service';
 import Review from '../../Components/Review/Index';
+import Pricing from '../../Components/Pricing/Index';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <Portfolio />
             <Service />
             <Review />
+            <Pricing />
         </React.Fragment>
     )
 }
