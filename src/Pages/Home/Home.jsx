@@ -6,6 +6,8 @@ import Portfolio from '../../Components/Portfolio/Index';
 import Service from '../../Components/Service';
 import Review from '../../Components/Review/Index';
 import Pricing from '../../Components/Pricing/Index';
+import Countdown from '../../Components/Countdown/Index';
+
 
 const Home = () => {
     return (
@@ -17,6 +19,7 @@ const Home = () => {
             <Service />
             <Review />
             <Pricing />
+            <Countdown />
         </React.Fragment>
     )
 }
