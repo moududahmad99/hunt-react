@@ -9,6 +9,7 @@ import Pricing from '../../Components/Pricing/Index';
 import Countdown from '../../Components/Countdown/Index';
 import Team from '../../Components/Team/Index';
 import Footer from '../../Components/Footer/Index';
+import Copyright from '../../Components/Copyright/Index';
 
 
 const Home = () => {
@@ -24,8 +25,9 @@ const Home = () => {
             <Countdown />
             <Team />
             <Footer />
+            <Copyright />
         </React.Fragment>
     )
 }
 
-export default Home
+export default Home;
