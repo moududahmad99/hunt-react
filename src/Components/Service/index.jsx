@@ -28,8 +28,17 @@ const Service = () => {
         autoplay: true,
         autoplaySpeed: 3000,
         vertical: true,
+        verticalSwiping: true,
         prevArrow: <CustomPrevArrow />,
-        nextArrow: <CustomNextArrow />
+        nextArrow: <CustomNextArrow />,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+            },
+          }
+        ],
     };
 
     return (

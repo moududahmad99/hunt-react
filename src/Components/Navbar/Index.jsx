@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaBars } from 'react-icons/fa';
 import './Style.css'
 
 const Navbar = () => {
@@ -20,7 +21,8 @@ const Navbar = () => {
                         aria-expanded="false"
                         aria-label="Toggle navigation"
                     >
-                        <i className="fa-solid fa-bars"></i>
+                        <i><FaBars /></i>
+
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">

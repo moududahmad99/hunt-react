@@ -10,6 +10,7 @@ import Countdown from '../../Components/Countdown/Index';
 import Team from '../../Components/Team/Index';
 import Footer from '../../Components/Footer/Index';
 import Copyright from '../../Components/Copyright/Index';
+import './Responsive.css'
 
 
 const Home = () => {

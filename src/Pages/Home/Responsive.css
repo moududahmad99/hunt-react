@@ -1,0 +1,643 @@
+/* Extra Small Area Start */
+@media (max-width: 575.98px) {
+  /* Navbar Area Start */
+  .navbar {
+    background-color: rgb(104, 104, 104);
+    z-index: 99;
+  }
+
+  .navbar i {
+    color: rgb(211, 211, 211);
+  }
+
+  .nav-link::after {
+    display: none;
+  }
+
+  .nav-link {
+    padding: 20px 0 !important;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+  }
+
+  .nav-link:hover {
+    margin-left: 6px;
+  }
+
+  .navbar button {
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  }
+
+  .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+  }
+  /* Navbar Area End */
+
+  /* Banner Area Start */
+  .banner-slide {
+    padding: 150px 0 110px 0;
+    clip-path: polygon(0 0, 100% 0, 100% 92%, 0% 100%);
+  }
+
+  .banner-text h3 {
+    font-size: 16px;
+    line-height: 40px;
+    padding: 0 60px;
+  }
+
+  .banner-text h3 span {
+    font-size: 34px;
+    line-height: 30px;
+  }
+
+  .banner-text p {
+    line-height: 24px;
+    font-size: 13px;
+    padding: 5px 10px 0;
+  }
+
+  .banner-button a {
+    margin-top: 50px;
+  }
+
+  .banner-button a:first-child {
+    margin-right: 20px;
+  }
+
+  .slick-arrow1 {
+    left: 20px;
+  }
+
+  .slick-arrow2 {
+    right: 10px;
+  }
+  /* Banner Area End */
+
+  /* About Area Start */
+  .heading h3 {
+    font-size: 25px;
+  }
+
+  .heading p {
+    font-size: 13px;
+    padding: 20px 10px 0 10px;
+  }
+
+  .about-text {
+    padding: 10px 24px 20px;
+  }
+
+  .about-img {
+    height: 240px;
+    width: 240px;
+  }
+
+  .about-img::after {
+    height: 310px;
+    width: 310px;
+  }
+
+  .about-text h3 {
+    font-size: 16px;
+    line-height: 50px;
+  }
+
+  .about-text p {
+    font-size: 13px;
+  }
+  /* About Area End */
+
+  /* Portfolio Area Start */
+  #portfolio {
+    padding: 60px 0;
+    margin: 40px 0;
+    clip-path: polygon(0 3%, 100% 0, 100% 97%, 0% 100%);
+  }
+
+  .portfolio-wrapper a:last-child {
+    margin: 30px 0;
+  }
+  /* Portfolio Area End */
+
+  /* Service Area Start */
+  #service {
+    margin: 0;
+  }
+
+  .service-card {
+    margin: 0 12px 30px 12px;
+    padding: 25px 20px;
+  }
+
+  .service-card p {
+    text-align: justify !important;
+    font-size: 13px;
+  }
+
+  .service-text h3 {
+    text-align: center !important;
+    padding-top: 30px;
+  }
+
+  .service-img::after {
+    display: none;
+  }
+
+  .service-right::after {
+    display: none;
+  }
+
+  .service-left::after {
+    display: none;
+  }
+
+  .arrow-up {
+    top: 0;
+  }
+
+  .arrow-down {
+    bottom: 0;
+  }
+  /* Service Area End */
+
+  /* Review Area Start */
+  #review {
+    clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
+    padding: 100px 0 100px 0;
+  }
+
+  .review-desc-inner::after {
+    display: none;
+  }
+
+  .review-arrow-down {
+    bottom: -258%;
+  }
+
+  .review-desc-inner {
+    margin-left: 0px;
+  }
+  /* Review Area End */
+
+  /* Pricing Area Start */
+  #pricing {
+    margin: 30px 0 50px;
+  }
+  /* Pricing Area Start */
+
+  /* Countdown Area Start */
+  .countdown-inner {
+    margin-bottom: 15px;
+  }
+  /* Countdown Area End */
+
+  /* Team Area Start */
+  /* Team Area End */
+
+  /* Footer Area Start */
+  footer {
+    padding: 50px 0 0px 0;
+    clip-path: polygon(0 6.91%, 100% 4.4%, 100% 100%, 0% 100%);
+  }
+
+  .brand {
+    margin: 0 5px;
+  }
+
+  .footer-contact p {
+    padding: 0px;
+    line-height: 24px;
+    font-size: 13px;
+    font-family: var(--secondary-font);
+    color: #ffffff;
+  }
+
+  .footer-social h3 {
+    font-size: 16px;
+  }
+
+  .footer-social a {
+    margin: 5px;
+  }
+  /* Footer Area End */
+}
+/* Extra Small Area End */
+
+/* Small Area Start */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Navbar Area Start */
+  .navbar {
+    background-color: rgb(133, 133, 121);
+    z-index: 99;
+  }
+
+  .navbar i {
+    color: rgb(211, 211, 211);
+  }
+
+  .nav-link::after {
+    display: none;
+  }
+
+  .nav-link {
+    padding: 20px 0 !important;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+  }
+
+  .nav-link:hover {
+    margin-left: 6px;
+  }
+
+  .navbar button {
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  }
+
+  .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+  }
+  /* Navbar Area End */
+
+  /* Banner Area Srart */
+  .banner-slide {
+    padding: 150px 0 110px 0;
+    clip-path: polygon(0 0, 100% 0, 100% 92%, 0% 100%);
+  }
+
+  .banner-text h3 {
+    font-size: 24px;
+    line-height: 45px;
+    padding: 0 75px;
+  }
+
+  .banner-text h3 span {
+    font-size: 46px;
+    line-height: 30px;
+  }
+
+  .banner-text p {
+    line-height: 24px;
+    font-size: 13px;
+    padding: 5px 10px 0;
+  }
+
+  .banner-button a {
+    margin-top: 50px;
+  }
+
+  .banner-button a:first-child {
+    margin-right: 20px;
+  }
+  /* Banner Area End */
+
+  /* About Area Start */
+  .about-text {
+    padding: 15px 24px 25px;
+  }
+
+  .about-img {
+    height: 300px;
+    width: 300px;
+  }
+
+  .about-img::after {
+    height: 370px;
+    width: 370px;
+  }
+  /* About Area End */
+
+  /* Portfolio Area Start */
+  #portfolio {
+    padding: 60px 0;
+    margin: 40px 0;
+    clip-path: polygon(0 3%, 100% 0, 100% 97%, 0% 100%);
+  }
+
+  .portfolio-wrapper a:last-child {
+    margin: 30px 0;
+  }
+  /* Portfolio Area End */
+
+  /* Service Area Start */
+  #service {
+    margin: 0;
+  }
+
+  .service-card {
+    margin: 0 12px 30px 12px;
+    padding: 25px 20px;
+  }
+
+  .service-card p {
+    text-align: justify !important;
+    font-size: 13px;
+  }
+
+  .service-text h3 {
+    text-align: center !important;
+    padding-top: 30px;
+  }
+
+  .service-img::after {
+    display: none;
+  }
+
+  .service-right::after {
+    display: none;
+  }
+
+  .service-left::after {
+    display: none;
+  }
+
+  .arrow-up {
+    top: 0;
+  }
+
+  .arrow-down {
+    bottom: 0;
+  }
+  /* Service Area End */
+
+  /* Review Area Start */
+  #review {
+    clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
+    padding: 100px 0 100px 0;
+  }
+
+  .review-desc-inner::after {
+    display: none;
+  }
+
+  .review-arrow-down {
+    bottom: -210%;
+  }
+
+  .review-arrow-up {
+    top: -50px;
+  }
+
+  .review-desc-inner {
+    margin-left: 0px;
+  }
+  /* Review Area End */
+
+  /* Pricing Area Start */
+  #pricing {
+    margin: 30px 0 50px;
+  }
+  /* Pricing Area End */
+
+  /* Countdown Area Start */
+  .countdown-inner {
+    margin-bottom: 15px;
+  }
+  /* Countdown Area End */
+
+  /* Team Area Start */
+  .team-overlayIcon a {
+    margin: 0 3px;
+  }
+  /* Team Area End */
+
+  /* Footer Area Start */
+  footer {
+    padding: 50px 0 0px 0;
+    clip-path: polygon(0 7.5%, 100% 3.4%, 100% 100%, 0% 100%);
+  }
+  /* Footer Area End */
+}
+/* Small Area End */
+
+/* Medium Area Start */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Navbar Area Start */
+  .navbar {
+    background-color: rgb(133, 133, 121);
+    z-index: 99;
+  }
+
+  .navbar i {
+    color: rgb(211, 211, 211);
+  }
+
+  .nav-link::after {
+    display: none;
+  }
+
+  .nav-link {
+    padding: 30px 0 !important;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    font-size: 2vw;
+  }
+
+  .nav-link:hover {
+    margin-left: 8px;
+  }
+
+  .navbar button {
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  }
+
+  .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+  }
+  /* Navbar Area End */
+
+  /* Banner Area Srart */
+  .banner-slide {
+    padding: 150px 0 110px 0;
+    clip-path: polygon(0 0, 100% 0, 100% 92%, 0% 100%);
+  }
+
+  .banner-text h3 {
+    font-size: 3.2vw;
+    line-height: 55px;
+    padding: 0 120px;
+  }
+
+  .banner-text h3 span {
+    font-size: 7vw;
+    line-height: 40px;
+  }
+
+  .banner-text p {
+    line-height: 24px;
+    font-size: 13px;
+    padding: 5px 10px 0;
+  }
+
+  .banner-button a {
+    margin-top: 50px;
+  }
+
+  .banner-button a:first-child {
+    margin-right: 20px;
+  }
+  /* Banner Area End */
+
+  /* About Area Start */
+  .about-text {
+    padding: 15px 24px 25px;
+  }
+
+  .about-img {
+    height: 300px;
+    width: 300px;
+  }
+
+  .about-img::after {
+    height: 370px;
+    width: 370px;
+  }
+  /* About Area End */
+
+  /* Portfolio Area Start */
+  #portfolio {
+    padding: 60px 0;
+    margin: 40px 0;
+    clip-path: polygon(0 3%, 100% 0, 100% 97%, 0% 100%);
+  }
+
+  .portfolio-wrapper a:last-child {
+    margin: 30px 0;
+  }
+  /* Portfolio Area End */
+
+  /* Service Area Start */
+  #service {
+    margin: 0;
+  }
+
+  .service-card {
+    margin: 0 12px 30px 12px;
+    padding: 25px 20px;
+  }
+
+  .service-card p {
+    text-align: justify !important;
+    font-size: 13px;
+  }
+
+  .service-text {
+    text-align: center !important;
+    padding-top: 30px;
+  }
+
+  .service-img::after {
+    display: none;
+  }
+
+  .service-right::after {
+    display: none;
+  }
+
+  .service-left::after {
+    display: none;
+  }
+
+  .arrow-up {
+    top: 0;
+  }
+
+  .arrow-down {
+    bottom: 0;
+  }
+  /* Service Area End */
+
+  /* Review Area Start */
+  #review {
+    clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
+    padding: 100px 0 100px 0;
+  }
+
+  .review-desc-inner::after {
+    display: none;
+  }
+
+  .review-arrow-down {
+    bottom: -200%;
+  }
+
+  .review-desc-inner {
+    margin-left: 0px;
+  }
+  /* Review Area End */
+
+  /* Pricing Area Start */
+  #pricing {
+    margin: 30px 0 0px;
+  }
+
+  .pricing-name h3 {
+    font-size: 16px;
+  }
+
+  .pricing-dollar h3 {
+    font-size: 20px;
+  }
+
+  .pricing-dollar p {
+    font-size: 11px;
+  }
+
+  .pricing-submit a {
+    font-size: 14px;
+  }
+
+  .pricing-package ul li {
+    font-size: 12px;
+  }
+  /* Pricing Area End */
+
+  /* Countdown Area Start */
+  .countdown-inner {
+    margin-bottom: 15px;
+  }
+  /* Countdown Area End */
+
+  /* Team Area Start */
+  .team-overlayIcon a {
+    margin: 0 3px;
+  }
+  /* Team Area End */
+
+  /* Footer Area Start */
+  footer {
+    padding: 50px 0 0px 0;
+    clip-path: polygon(0 8.4%, 100% 3.4%, 100% 100%, 0% 100%);
+  }
+  /* Footer Area End */
+}
+/* Medium Area End */
